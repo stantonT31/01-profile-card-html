@@ -1,0 +1,76 @@
+/* Styles the page background and centers the profile card vertically and horizontally */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+/* Gives the profile content a card-like appearance */
+main {
+  background-color: white;
+  border: 1px solid #c7d2e0;
+  border-radius: 12px;
+  padding: 30px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Adds a small amount of space above and below the heading elements */
+h1, h2 {
+  margin: 8px 0;
+}
+
+/* Styles the main name heading */
+h1 {
+  font-size: 40px;
+  color: darkblue;
+}
+
+/* Styles the job title heading */
+h2 {
+  font-size: 24px;
+  color: slategrey;
+}
+
+/* Styles the profile description paragraph */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 12px 0 0;
+}
+
+/* Styles the profile image */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+/* Removes bullet points from the list and adds spacing */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+}
+
+/* Adds spacing between list items */
+li {
+  margin: 10px 0;
+}
+
+/* Styles the links in the list */
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

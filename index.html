@@ -1,20 +1,44 @@
 <!DOCTYPE html>
+<!-- Tells the browser this is an HTML5 document -->
 <html lang="en">
 <head>
+  <!-- Sets the character encoding for the page -->
   <meta charset="UTF-8">
+  <!-- Makes the page responsive on different screen sizes -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Helps ensure the page works well in older Internet Explorer versions -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Displays the title in the browser tab -->
   <title>Stanton's Profile Card</title>
-  <link rel="stylesheet" href="styles.css">
+  <!-- Preconnects to Google Fonts so the font loads faster -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Loads the Inter font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Links to the external stylesheet for the page styling -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <!-- Main content area for the profile card -->
   <main>
+    <img src="img/placeholder.png" alt="Stanton Turner">
+    <!-- The person's name -->
     <h1>Stanton Turner</h1>
+    <!-- The person's job title -->
     <h2>Front-End Developer</h2>
+    <!-- A short description about the person -->
     <p>I build clean, responsive user interfaces and enjoy turning design ideas into polished web experiences.</p>
+
+    <h3>My Favorite Websites</h3>
+    <ul>
+      <li><a href="https://www.youtube.com/@prodbyTY/videos">Youtube</a></li>
+      <li><a href="https://www.stackoverflow.com">Stack Overflow</a></li>
+      <li><a href="https://www.mdn.org">MDN Web Docs</a></li>
+      <li><a href="https://www.codepen.io">CodePen</a></li>
+    </ul>
   </main>
 
+  <!-- Links to a JavaScript file for extra behavior if needed -->
   <script src="script.js"></script>
 </body>
 </html>
